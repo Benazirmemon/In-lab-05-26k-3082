@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    int marks=40;
+    (marks>=50 ? printf("pass"):printf("fail"));
+}

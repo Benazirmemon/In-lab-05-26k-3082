@@ -1,0 +1,71 @@
+#include<stdio.h>
+int main(){
+    int department,section;
+    printf("select department:");
+    printf("1.Computerscience");
+    printf("2.Information technology");
+    printf("3.Artificial intelligence");
+    printf("enter department");
+    scanf("%d",&department);
+    switch(department)
+        {
+            case 1:
+            printf("Department: Computerscience");
+            printf("select section");
+            printf("1.Section A");
+            printf("2.Section B");
+            scanf("%d",&section);
+            switch(section)
+                {
+                    case 1:
+                    printf("Section A");
+                    break;
+                    case 2:
+                    printf("Section B");
+                    break;
+                    default:
+                    printf("invalid seection");
+                }
+            break;
+            case 2:
+            printf("Department:Information technology");
+            printf("select section");
+            printf("1.Section A");
+            printf("2.Section B");
+            scanf("%d",&section);
+            switch(section)
+                {
+                    case 1:
+                    printf("Section A");
+                    break;
+                    case 2:
+                    printf("Section B");
+                    break;
+                    default:
+                    printf("Invalid Section");
+                }
+            break;
+            case 3:
+            printf("Department:Artificial intellignce");
+            printf("1.Section A");
+            printf("2.Section B");
+            printf("%d",&section);
+            switch(section)
+                {
+                    case 1:
+                    printf("Section A");
+                    break;
+                    case 2:
+                    printf("Section B");
+                    break;
+                    default:
+                    printf("Invalid section");
+                }
+            break;
+            default:
+            printf("Invalid department");
+        }
+}
+                    
+                        
+            
